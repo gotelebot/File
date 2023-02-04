@@ -13,7 +13,6 @@ func main() {
 		Poller: &tele.LongPoller{Timeout: 10 * time.Second},
 	}
 
-	// 注册机器人
 	b, err := tele.NewBot(pref)
 	if err != nil {
 		panic(err)
