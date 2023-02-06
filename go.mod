@@ -1,8 +1,8 @@
 module github.com/gotelebot/File
 
-go 1.19
+go 1.20
 
-require github.com/3JoB/telebot v0.0.0-20230204090104-6e432d9cfc3c
+require github.com/3JoB/telebot v0.0.0-20230206093018-d4bc9140380f
 
 require (
 	github.com/3JoB/ulib v0.0.6 // indirect
